@@ -18,10 +18,48 @@
         }
         body {
             font-family: 'Quicksand', sans-serif;
+            margin: 0;
+        }
+        button{
+            background-color: var(--hospital-green);
+            border: 2px solid var(--hospital-green);
+            border-radius: 6px;
+            color: var(--black);
+            width: 150px;
+            height: 55px;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px;
+        }
+        button:hover{
+            background-color: var(--white);
+            cursor: pointer;
+        }
+        .container{
+            padding: 80px;
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     </style>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Seleccione un boton para dirigirse a la página y ver su Interfaz Gráfica</h1>
+        <a href="./clase-1-cambiar-contraseña.html"><button>Canbiar Contraseña</button></a>
+        <a href="./clase_2_enviar-correo-clase02.html"><button>Enviar Correo</button></a>
+        <a href="./clase_3_login.html"><button>Login</button></a>
+        <a href="./clase_4_editar_cuenta.html"><button>Editar Cuenta</button></a>
+        <a href="./clase_5_Mi_cuenta.html"><button>Mi Cuenta</button></a>
+        <a href="./clase_6_Pagina-Inicio.html"><button>Página Inicio</button></a>
+        <a href="./clase_7_Menu-Desktop.html"><button>Menu Desktop</button></a>
+        <a href="./clase_8_Menu-Mobile.html"><button>Menu Mobile</button></a>
+        <a href="./clase_9_Mi-orden.html"><button>Mi Orden</button></a>
+        <a href="./clase_10_Mis-ordenes.html"><button>Mis Ordenes</button></a>
+        <a href="./clase_11_Navbar.html"><button>Navbar</button></a>
+        <a href="./clase_12_Detalle-Producto.html"><button>Detalle Producto</button></a>
+        <a href="./clase_13_carrrito-compras.html"><button>Carrito Compras</button></a>
+    </div>
 </body>
 </html>
